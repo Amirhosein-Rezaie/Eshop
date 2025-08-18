@@ -1,0 +1,22 @@
+.sign-in-form input {
+    text-align: center;
+}
+
+.password button {
+    width: 5%;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.passInputs {
+    display: flex;
+}
+
+.password input {
+    width: 95%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.buttons button {
+    width: 100%;
+}

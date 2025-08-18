@@ -1,0 +1,94 @@
+/* font */
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff2") format("woff2"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+/* color */
+:root {
+    --blue: #0d6efd;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #d63384;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #198754;
+    --teal: #20c997;
+    --cyan: #0dcaf0;
+    --black: #000;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --gray-100: #f8f9fa;
+    --gray-200: #e9ecef;
+    --gray-300: #dee2e6;
+    --gray-400: #ced4da;
+    --gray-500: #adb5bd;
+    --gray-600: #6c757d;
+    --gray-700: #495057;
+    --gray-800: #343a40;
+    --gray-900: #212529;
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --success: #198754;
+    --info: #0dcaf0;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #212529;
+}
+
+body {
+    font-family: "Vazir", sans-serif;
+}
+
+* {
+    direction: rtl !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar */
+.dropdown-menu {
+    text-align: right;
+}
+
+nav .btn:hover {
+    border: 1px solid var(--white) !important;
+}
+
+.dpItem {
+    margin-right: 5px;
+}
+
+nav {
+    border-radius: 15px;
+}
+
+.dropdown-divider {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.loginBtn {
+    display: none !important;
+}
+
+.dropdown-menu {
+    position: absolute !important;
+}
+
+.alert {
+    width: 100%;
+    text-align: center;
+}

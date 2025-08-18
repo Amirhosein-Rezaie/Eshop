@@ -1,0 +1,51 @@
+body {
+    background-color: #f5f5f5;
+}
+.cart-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.price {
+    color: #ef394e;
+    font-weight: bold;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9rem;
+}
+.discount-badge {
+    background-color: #ef394e;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+.summary-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 20px;
+}
+.btn-checkout {
+    background-color: #ef394e;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-right {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.NumberProduct {
+    text-align: center;
+    border: 5px;
+}

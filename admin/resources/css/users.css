@@ -1,0 +1,8 @@
+.item:hover {
+    transform: scale(1.03);
+    transition: all ease-in-out .10s;
+}
+
+.infos-card-body .text-secondary{
+    font-size: small;
+}
